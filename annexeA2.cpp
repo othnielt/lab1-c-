@@ -5,6 +5,15 @@
 
 using namespace std;
 
+//Question 2a) Après initialisation des variables dans la fonction main
+//La fonction main pose une condition qui est toujours vraie 
+//cette condition fait appel à la fonction menu pour connaitre le choix de l'utilisateur
+//Ensuite elle execute la boucle dépendemment du choix 1,2 ou 3,elle l'exécute indéfiniment
+//si le choix est 1, elle calcule la surface du disque
+//si le choix est 2, elle calcule le volume du cylindre
+//et si le choix est 3, elle fait quitter l'utilisateur, en comptant le nombre de fois qu'on
+//a calculé la surface et le volume 
+
 
 int main(void) {
 char choix;
