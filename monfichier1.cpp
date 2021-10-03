@@ -27,7 +27,7 @@ cout << "Taille en octets  d'un entier long: " << sizeof(unsigned int)<< endl ;
 
 
 
-cout << "Type un entier : ";
+cout << "Saisissez un entier : ";
 
 cin >> numbEntier; 
 
@@ -45,7 +45,7 @@ cin >> decimalnumber;  // affiche le nombbre float de
 
 cout << decimalnumber<< endl;
 
-cout << setprecision(3)<<scientific<< decimalnumber<< endl;
+cout << setprecision(3)<<scientific<< decimalnumber<< endl; // ou on peut écrire: cout << setprecision(3) << fixed << decimalnumber << endl ;
 
 
 cout << "saisissez un caractère : "<< endl ; 
